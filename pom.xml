@@ -8,10 +8,10 @@
 		<version>2.2.5.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.plick</groupId>
-	<artifactId>etl</artifactId>
+	<groupId>com.jarjarspring</groupId>
+	<artifactId>app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>etl</name>
+	<name>app</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

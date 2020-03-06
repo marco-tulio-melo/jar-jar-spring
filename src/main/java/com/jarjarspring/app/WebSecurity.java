@@ -1,4 +1,4 @@
-package com.plick.etl;
+package com.jarjarspring.app;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

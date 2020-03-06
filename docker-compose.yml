@@ -4,9 +4,9 @@ services:
     image: postgres:10-alpine
     container_name: postgres10
     environment:
-      POSTGRES_PASSWORD: plickservice
-      POSTGRES_USER: plickservice
-      POSTGRES_DB: plickservice
+      POSTGRES_PASSWORD: jarjarspringservice
+      POSTGRES_USER: jarjarspringservice
+      POSTGRES_DB: jarjarspringservice
     stdin_open: true
     tty: true
     ports:
@@ -16,7 +16,7 @@ services:
   pg-flyway:
     container_name: pg-flyway
     image: boxfuse/flyway:5.2.4
-    command: -url=jdbc:postgresql://postgres/plickservice -schemas=plickservice -user=plickservice -password=plickservice migrate
+    command: -url=jdbc:postgresql://postgres/jarjarspringservice -schemas=jarjarspringservice -user=jarjarspringservice -password=jarjarspringservice migrate
     volumes:
       - ./docker/pg-flyway/migrations:/flyway/sql
     depends_on:

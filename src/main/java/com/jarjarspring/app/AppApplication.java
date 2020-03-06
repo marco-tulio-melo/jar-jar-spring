@@ -1,13 +1,13 @@
-package com.plick.etl;
+package com.jarjarspring.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 
 @SpringBootApplication(exclude = { SecurityAutoConfiguration.class })
-public class EtlApplication {
+public class AppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EtlApplication.class, args);
+		SpringApplication.run(AppApplication.class, args);
 	}
 }

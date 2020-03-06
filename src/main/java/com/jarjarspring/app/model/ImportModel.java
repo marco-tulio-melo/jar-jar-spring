@@ -1,4 +1,4 @@
-package com.plick.etl.model;
+package com.jarjarspring.app.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 

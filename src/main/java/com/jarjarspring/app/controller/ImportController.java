@@ -1,4 +1,4 @@
-package com.plick.etl.controller;
+package com.jarjarspring.app.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -11,5 +11,5 @@ public class ImportController {
     @ResponseBody
     public String upload () {
         return "bom";
-    } 
+    }
 }

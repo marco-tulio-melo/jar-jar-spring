@@ -1,7 +1,7 @@
-package com.plick.etl.repository;
+package com.jarjarspring.app.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.plick.etl.model.ImportModel;
+import com.jarjarspring.app.model.ImportModel;
 
 public interface ImportRepository extends JpaRepository<ImportModel, Long> {
 

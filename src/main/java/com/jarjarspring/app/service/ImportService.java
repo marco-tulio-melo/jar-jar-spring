@@ -1,9 +1,9 @@
-package com.plick.etl.service;
+package com.jarjarspring.app.service;
 
 import java.util.List;
 
-import com.plick.etl.model.ImportModel;
-import com.plick.etl.repository.ImportRepository;
+import com.jarjarspring.app.model.ImportModel;
+import com.jarjarspring.app.repository.ImportRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
