@@ -4,12 +4,12 @@
 
 Come to the java side 🚀 🌑
 
-**jar-jar-spring** is a starter Java 8/Spring template to implement an API. Check out the patterns we defined this document bellow.
+**jar-jar-spring** is a starter Java 8 using Spring Framework template to implement an API. Check out the patterns we defined this document bellow.
 
 <p  align="center" style="padding:15px 0;">
-	<img src="" width="400px" />
+	<img src="https://i.imgur.com/MOjyaDq.png" width="400px" />
   <br />
-  Icon by <a href="" target="_blank">Someone</a>
+  Icon by <a href="https://dribbble.com/shots/551565-Star-Wars-Icons-1" target="_blank">Chad Landenberger</a>
 </p>
 
 *******
