@@ -93,6 +93,6 @@ Basic folder structure (MVC)
 - **src.main.java.com.jarjarspring.app.service**: Business logic layer
 - **src.main.java.com.jarjarspring.app.model**: Model concept layer
 - **src.main.java.com.jarjarspring.app.repository**: JPA repository layer
-- **src.main.java.com.jarjarspring.app.static**: Images, styles, fonts and other files that can be served
-- **src.main.java.com.jarjarspring.app.templates**: mustache interpreted files
+- **src.main.resources.static**: Images, styles, fonts and other files that can be served
+- **src.main.resources.template**: mustache interpreted files
 - **src.test.java.com.jarjarspring.app.test**: Junity tests
