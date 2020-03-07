@@ -6,7 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ImportController {
-
+    @Value("${app.url}")
+    private String endpointUrl;
+    
     @GetMapping("/upload")
     @ResponseBody
     public String upload () {
