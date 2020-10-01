@@ -1,10 +1,6 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/stanleygomes/jar-jar-spring/badge)](https://www.codefactor.io/repository/github/stanleygomes/jar-jar-spring)
-
 # jar-jar-spring
 
-Come to the java side 🚀 🌑
-
-**jar-jar-spring** is a starter Java 8 using Spring Framework template to implement an API. Check out the patterns we defined this document bellow.
+The main goal of **jar-jar-spring** is to set patterns to be easily implemented on Nodejs projects. **jar-jar-spring** is a starter Java 8 using Spring Framework template to implement an API. Check out the patterns we defined this document bellow. 
 
 <p  align="center" style="padding:15px 0;">
 	<img src="https://i.imgur.com/MOjyaDq.png" width="400px" />
@@ -18,23 +14,26 @@ Table of contents
  2. [Gitflow recommendations](#gitflow)
  3. [Patterns and libs](#patterns)
  4. [Project structure](#projetcstructure)
+ 5. [Licence](#license)
 *******
 
 <div id='startup'/>
 
-## Startup
+## :rocket: Startup
 
-Step by step to get this up and running
+Step by step to get this up and running.
+
+We recommend you to use [VS Code Editor](https://code.visualstudio.com) and [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
 ### Clone repo and go to project folder
 
-```
-git clone https://github.com/stanleygomes/jar-jar-spring.git && cd jar-jar-spring
+```sh
+$ git clone https://github.com/stanleygomes/jar-jar-spring.git && cd jar-jar-spring
 ```
 
 ### Install dependencies
 
-via maven pom.xml
+via maven pom.xml `root of the repo`
 
 ### Start server
 
@@ -44,21 +43,19 @@ Use VS Code launch configuration. Press F5.
 
 Copy enviroment variables template
 
-```bash
-cp .env.template .env
+```sh
+$ cp .env.template .env
 ```
 
 Via docker-compose (start database, run migrations and start server)
 
-```bash
-docker-compose up
+```sh
+$ docker-compose up
 ```
-
-To test it on the browser, simply go to: `http://localhost:8080`
 
 <div id='gitflow'/>
 
-## Git flow
+## :trident:  Git flow
 
 To file a new a feature
 
@@ -69,7 +66,7 @@ To file a new a feature
 
 <div id='patterns'/>
 
-## Patterns
+## :heavy_check_mark: Patterns
 
 These are some of patterns definitions to help us to keep a default arquitecture.
 
@@ -85,7 +82,7 @@ These are some of patterns definitions to help us to keep a default arquitecture
 
 <div id='projetcstructure'/>
 
-## Project structure
+## :open_file_folder: Project structure
 
 Basic folder structure (MVC)
 
@@ -96,3 +93,12 @@ Basic folder structure (MVC)
 - **src.main.resources.static**: Images, styles, fonts and other files that can be served
 - **src.main.resources.template**: mustache interpreted files
 - **src.test.java.com.jarjarspring.app.test**: Junity tests
+
+<div id='license'/>
+
+## :scroll: License 
+
+```
+MIT license. Copyright (c) 2020 Marco Túlio Melo.
+For more information, see the LICENSE file.
+```
