@@ -16,7 +16,6 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
 			.disable()
 			.authorizeRequests()
 			.antMatchers(HttpMethod.OPTIONS, "*/")
-			.permitAll()
 			.antMatchers(HttpMethod.GET, "/login")
 			.permitAll();
 	}
